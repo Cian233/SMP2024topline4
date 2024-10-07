@@ -1,0 +1,6 @@
+LANGCHAIN_API_KEY=''
+BASE_PATH='D:/LLM/比赛/llmaindex'
+LLM_MODEL_NAME="gpt-4o-mini-2024-07-18"
+#LLM_MODEL_NAME="gpt-4o-2024-08-06"
+#LLM_MODEL_NAME="o1-mini"
+EMBEDDING_MODEL_NAME="text-embedding-3-large"
