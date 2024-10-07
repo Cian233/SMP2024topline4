@@ -96,3 +96,13 @@ conda env create -f environment.yml
 2.在config文件夹的base.py文件内配置程序的路径，例如'D:/LLM/比赛/SMP/app'，在model_config.py内配置需要用到的模型的apikey
 
 3.使用storage.ipynb文件对文档进行向量化
+
+# 小广告
+
+本方案需要使用大量的token切需要采用4o和o1等openai模型
+
+openai api国内转发
+
+[CianAPI](http://14.103.169.119:3000/http://14.103.169.119:3000/http://14.103.169.119:3000/http://14.103.169.119:3000/)
+
+便宜稳定，4元一刀，量大优惠可谈，可以提供一定的技术指导
