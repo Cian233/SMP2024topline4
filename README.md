@@ -18,34 +18,34 @@
 
 app
 
-｜--agents # agents代码
------L--__ init __.py agents # 初始化代码和主agent工作流定义
------L--base.py # 基础模型调用和状态初始化
------L--coderunner.py # 代码运行节点
------L--doc_retriever.py # 文档召回节点
------L--o1_reflection.py # 反思节点
------L--o1chat # 答案生成节点
------L--subproblem # 子问题提取节点（未启用）
-｜--answer # 运行结果
-｜--config # 配置
-｜--question # 数据集
-｜--log # 运行日志
-｜--knowledge_base # 知识库
-｜--prompt # Agent提示词
-｜--work # 工作空间（用于手动缓存部分文件）
-｜--耗材 # 用于存放进行三路合并的答案
-｜--备份 # 运行结果备份
-｜--tools # 可以被Agent调用的工具
------L--__init __.py # 把函数封装成工具并且初始化tool类
------L--code_interpreter.py # 代码执行函数
------L--query_engine.py  # 文档召回函数
------L--utils.py # 一些经常会被调用的函数，例如获取llm
-｜--storage.ipynb # 文档向量化模块
-｜--main.ipynb # 主程序运行模块
-｜--load_storage.ipynb # 文档召回测试文件
-｜--清理.ipynb # 用于清理多次运行未得到正确答案的题目
-｜--hb.ipynb # 三路结果合并程序
-｜--environment.yml # conda环境配置文件
+｜--agents # agents代码  
+-----L--__ init __.py agents # 初始化代码和主agent工作流定义  
+-----L--base.py # 基础模型调用和状态初始化  
+-----L--coderunner.py # 代码运行节点  
+-----L--doc_retriever.py # 文档召回节点  
+-----L--o1_reflection.py # 反思节点  
+-----L--o1chat # 答案生成节点  
+-----L--subproblem # 子问题提取节点（未启用）  
+｜--answer # 运行结果  
+｜--config # 配置  
+｜--question # 数据集  
+｜--log # 运行日志  
+｜--knowledge_base # 知识库  
+｜--prompt # Agent提示词  
+｜--work # 工作空间（用于手动缓存部分文件）  
+｜--耗材 # 用于存放进行三路合并的答案  
+｜--备份 # 运行结果备份  
+｜--tools # 可以被Agent调用的工具  
+-----L--__init __.py # 把函数封装成工具并且初始化tool类  
+-----L--code_interpreter.py # 代码执行函数  
+-----L--query_engine.py  # 文档召回函数  
+-----L--utils.py # 一些经常会被调用的函数，例如获取llm  
+｜--storage.ipynb # 文档向量化模块  
+｜--main.ipynb # 主程序运行模块  
+｜--load_storage.ipynb # 文档召回测试文件  
+｜--清理.ipynb # 用于清理多次运行未得到正确答案的题目  
+｜--hb.ipynb # 三路结果合并程序  
+｜--environment.yml # conda环境配置文件  
 
 其他文件均为测试时所使用的文件，可以忽略
 
